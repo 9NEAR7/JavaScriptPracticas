@@ -9,11 +9,56 @@
 <body>
     <header>
         <h1>Figuras Geométricas</h1>
+        <p>Calculo de áreas y perímetros</p>
     </header>
     <main>
+        <section>
+            <h2>Calcula el area de un cuadrado</h2>
+            <form action="">
+                <label for="InputCuadrado">
+                    Escribe cuanto mide cada lado: 
+                </label>
+                <input  id="InputCuadrado" type="number">
+                <button type="button" onclick="calcularAreaCuadrado()()">calcula el area</button>
+                <button type="button" onclick="calcularPerimetroCuadrado()">calcula el perimetro</button>
+            </form>
+        </section>
+        <section>
+            <h2>Calcula el perimetro de un triangulo</h2>
+            <form action="">
+                <label for="InputTriangulo">
+                    Escribe cuanto mide cada lado: 
+                </label>
+                <input  id="InputTriangulo1" type="number">
+                <input  id="InputTriangulo2" type="number">
+                <input  id="InputTriangulo3" type="number">
+                <button type="button" onclick="calcularPerimetroTriangulo()">Calcula el perimetro</button>
+            </form>
+            <h2>Calcula el área del triangulo</h2>
+            <form>
+                <label for="InputTrianguloA">
+                    Escribe la dedida de la base:
+                </label>
+                <input  id="InputTrianguloA"  type="number">
+                <label for="InputTrianguloA">
+                    Escribe la medida de la altura
+                </label>
+                <input  id="InputTrianguloA1" type="number">
+                <button type="button" onclick="calcularAreaTriangulo()">Calcula el área</button>
+            </form>
+            <h2>Calcula el área y circunferencia de un circulo</h2>
+            <form action="InputCirculo">
+                <label for="InputCirculo">
+                    Escribe el radio del circulo
+                </label>
+                <input id="radioCirculo" type="number">
+            </form>
+        </section>
 
     </main>
-    <footer></footer>
+    <footer>
+
+    </footer>
     <script src="./figuras.js"></script>
 </body>
 </html>
